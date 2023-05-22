@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/src/assets/css/remixicon.css">
+    <link rel="stylesheet" href="/src/assets/css/share-container.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome/css/font-awesome.min.css">
+    <script src="https://cdn.bootcss.com/jquery/2.2.4/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/autoload.js"></script>
+    <style>
+        #waifu #live2d{
+            /* color: white; */
+			height: 300px;
+			width: 300px;
+		}
+        #waifu-tool svg{
+            fill: white;
+        }
+        #waifu-tool svg:hover{
+            fill: #4e3a52;
+        }
+    </style>
+    <style>
+        .about-warp {
+        width: 100vw;
+        height: 100vh;
+        background: url(/src/assets/images/2.jpg) no-repeat;
+        background-size: cover;
+        background-position: center center;
+        }
+        .about-warp::after {
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        gap: 100%;
+        border-radius: 0px;
+        backdrop-filter: blur(3px);
+        }
+        .about-introduce {
+        position: absolute;
+        width: 1000px;
+        height: 500px;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+        background-color: rgba(246, 235, 225, 0.5);
+        background-size: cover;
+        background-position: right;
+        overflow: hidden;
+        border: 3px solid #333;
+        }
+        .about-introduce h4 {
+        margin-top: 15px;
+        text-align: center;
+        font-size: 50px;
+        color: #333;
+        padding-bottom: 5px;
+        margin-bottom: 5px;
+        border-bottom: 3px solid #333;
+        }
+        .about-introduce h4 a {
+        color: #333;
+        }
+        .about-introduce p {
+        margin: 15px 0;
+        display: flex;
+        color: #333;
+        justify-content: center;
+        align-items: baseline;
+        font-size: 18px;
+        }
+        .about-introduce p a {
+        font-size: 24px;
+        color: #333;
+        }
+
+    </style>
+    <title>月三の自我介绍噢</title>
+</head>
+<body>
+    <div class="about-warp"></div>
+    <div class="about-introduce">
+        <h4><a href="javascript:;">月三のTing</a></h4>
+        <p><a href="javascript:;">性别：</a>可男可女</p>
+        <p><a href="javascript:;">本人：</a>不甘当下，想要突破自己盲点的年轻人</p>
+        <p><a href="javascript:;">爱好：</a>少女 & 萝莉 & 美食 & 猫咪 ..more</p>
+        <p><a href="javascript:;">兴趣：</a>撸码 & 发呆 & 打Game ..more</p>
+        <p><a href="javascript:;">vx：</a>J13256908363</p>
+        <p>有条件的可以赏口饭吃</p>
+        <img src="/src/assets/images/shou.png" alt="" style="width: 100px; position: absolute; left: 0; right: 0; margin: auto;">
+        <p style="position: absolute; left: 0; right: 0; bottom: 5px; margin: auto; font-size: 12px;">(支付宝)</p>
+    </div>
+</body>
+</html>

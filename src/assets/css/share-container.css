@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+    scroll-behavior: smooth;
+    transition: all .4s;
+}
+body{
+    background-color: #f5f5f5;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+li{
+    color: white;
+    list-style: none;
+}
+/* 滚动条 */
+::-webkit-scrollbar {
+    width:9px;
+    height:9px;
+}
+::-webkit-scrollbar-track {
+    width: 6px;
+    background-color:white;
+    -webkit-border-radius: 2em;
+    -moz-border-radius: 2em;
+    border-radius:2em;
+}
+::-webkit-scrollbar-thumb {
+    background-color: rgba(41, 40, 42, 0.5);
+    background-clip:padding-box;
+    min-height:28px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background-color: rgba(41, 40, 42, 0.5);
+
+}
